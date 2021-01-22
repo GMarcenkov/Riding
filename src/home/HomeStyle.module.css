@@ -1,14 +1,12 @@
 .wrapper{
-
+    min-height: calc(100vh - 320px);
 }
 .header{
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     text-align: center;
-    position: sticky;
     top:0;
     left: 0;
-    background: red;
     width: 100%;
 }
 .title{
@@ -16,9 +14,22 @@
     padding-bottom: 20px;
     font-weight: bolder;
 }
-.phone{
+.phone_container{
     font-size: 25px;
     font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    position: sticky;
+    top:0;
+    left: 0;
+    background: black;
+    color: white;
+    width: 100%;
+}
+.phone{
+    text-decoration: none;
+    color: white;
 }
 .image{
     width: 100%;
@@ -32,4 +43,22 @@
     text-indent: 50px;
     text-align: justify;
     font-size: 17px;
+}
+.footer{
+    background: black;
+    margin: auto;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.facebook_container{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.facebook{
+    text-decoration: none;
+    color: white;
 }
