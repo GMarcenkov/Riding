@@ -1,0 +1,7 @@
+
+.wrapper{
+    min-height: calc(106vh - 320px);
+    color: red;
+    text-align: center;
+    font-size: 40px;
+}

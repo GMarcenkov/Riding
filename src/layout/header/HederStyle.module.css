@@ -1,0 +1,95 @@
+.header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top:0;
+    left: 0;
+    width: 100%;
+    background: black;
+    border-bottom: white solid 2px;
+}
+.title{
+    text-decoration: none;
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    border: white solid 2px;
+    width: 70%;
+    margin: auto;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 10px;
+    background: black;
+    color: white;
+}
+.navBar_wrapper{
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+.navBar_container{
+    padding: 10px 0 10px 0;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    background: black;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.menu_container{
+    position: absolute;
+    min-width: 30%;
+    height: 200px;
+    background: black;
+    color: white;
+    padding: 25px 25px 5px 25px;
+    animation-name: example;
+    animation-duration: 1s;
+}
+@keyframes example {
+    0%   { left:0; top:-300px;}
+    100% { left:0; top:48px;}
+}
+.category_title{
+    display: block;
+    color: white;
+    padding: 0 0  10px 0;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.phone{
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    background: black;
+    margin: auto;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.facebook_container{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.facebook{
+    text-decoration: none;
+    color: white;
+}
+
+.phone_container{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    top:0;
+    left: 0;
+    background: black;
+    color: white;
+    width: 100%;
+}
+
