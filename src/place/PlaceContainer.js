@@ -1,27 +1,23 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import TitleHeader from "../layout/header/TitleHeader";
 import NavBar from "../layout/header/NavBar";
 import HomeStyle from "../home/HomeStyle.module.css";
 import Footer from "../layout/Footer";
-import GoogleMapReact from 'google-map-react';
+import ReactGa from 'react-ga'
 
 const PlaceContainer = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
+
+  useEffect(()=>{
+      ReactGa.initialize('UA-174210957-1')
+ReactGa.pageview('/place')
+  },[])
   return (
     <div>
       <TitleHeader />
       <NavBar menuIsOpen={menuIsOpen} setMenuIsOpen={setMenuIsOpen} />
       <div className={HomeStyle.wrapper}>
-          <div style={{ height: '100vh', width: '100%' }}>
-              <GoogleMapReact
-                  defaultCenter={{
-                      lat: 59.95,
-                      lng: 30.33
-                  }}
-                  defaultZoom={11}
-              />
-          </div>
-
+В процес на разработка
       </div>
       <Footer />
     </div>
