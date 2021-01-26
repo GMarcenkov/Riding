@@ -45,9 +45,19 @@
     animation-name: example;
     animation-duration: 1s;
 }
+.menu_container_selected{
+    position: absolute;
+    min-width: 30%;
+    height: 200px;
+    background: black;
+    color: white;
+    padding: 25px 25px 5px 25px;
+    animation-name: example;
+    animation-duration: 1s;
+}
 @keyframes example {
-    0%   { left:0; top:-300px;}
-    100% { left:0; top:48px;}
+    0%   { left:-200px; top:49px;}
+    100% { left:0; top:49px;}
 }
 .category_title{
     display: block;

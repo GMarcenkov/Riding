@@ -11,10 +11,10 @@ const HomeContainer = (props) => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
 
   return (
-    <div className={HomeStyle.wrapper}>
+    <div>
       <TitleHeader />
       <NavBar menuIsOpen={menuIsOpen} setMenuIsOpen={setMenuIsOpen} />
-      <div>
+      <div className={HomeStyle.wrapper}>
         <img className={HomeStyle.image} src={all} />
         <div className={HomeStyle.body}>
           Заповядайте в село Голямо Белово за едно неописуемо преживяване сред

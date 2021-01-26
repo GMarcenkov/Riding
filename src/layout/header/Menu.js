@@ -9,11 +9,14 @@ const Menu = ({ menuIsOpen }) => {
           <Link to="/" className={HeaderStyle.category_title}>
             Начало
           </Link>
-          <Link to="/gallery" className={HeaderStyle.category_title}>
-            Снимки
-          </Link>
           <Link to="/about" className={HeaderStyle.category_title}>
-            За Тома
+            За Нас
+          </Link>
+          <Link to="/place" className={HeaderStyle.category_title}>
+            Къде сме ?
+          </Link>
+          <Link to="/gallery" className={HeaderStyle.category_title}>
+            Галерия
           </Link>
           <Link to="/price" className={HeaderStyle.category_title}>
             Ценоразпис

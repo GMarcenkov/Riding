@@ -4,6 +4,7 @@ import "react-image-gallery/styles/css/image-gallery.css";
 import TitleHeader from "../layout/header/TitleHeader";
 import NavBar from "../layout/header/NavBar";
 import Footer from "../layout/Footer";
+import GalleryStyle from "./GalleryStyle.module.css";
 
 const GalleryContainer = (props) => {
   const [images, setImages] = useState([
@@ -86,12 +87,15 @@ const GalleryContainer = (props) => {
     //     "https://scontent-sof1-1.xx.fbcdn.net/v/t1.0-9/394041_239059499502333_1189756566_n.jpg?_nc_cat=104&ccb=2&_nc_sid=f9d7a1&_nc_ohc=iL_nTV_TttMAX8zg7yv&_nc_ht=scontent-sof1-1.xx&oh=f614cd385a7b893fa49731dc72b7acdc&oe=6032E485",
     // },
   ]);
-    const [menuIsOpen, setMenuIsOpen] = useState(false);
+  const [menuIsOpen, setMenuIsOpen] = useState(false);
   return (
     <div>
         <TitleHeader />
         <NavBar menuIsOpen={menuIsOpen} setMenuIsOpen={setMenuIsOpen} />
-      <ImageGallery items={images} />
+
+      <div className={GalleryStyle.wrapper}>
+        <ImageGallery items={images} />
+      </div>
       <Footer />
     </div>
   );
