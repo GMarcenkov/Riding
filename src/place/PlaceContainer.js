@@ -17,7 +17,7 @@ ReactGa.pageview('/place')
       <TitleHeader />
       <NavBar menuIsOpen={menuIsOpen} setMenuIsOpen={setMenuIsOpen} />
       <div className={HomeStyle.wrapper}>
-В процес на разработка
+            В процес на разработка
       </div>
       <Footer />
     </div>

@@ -41,7 +41,7 @@
     height: 200px;
     background: black;
     color: white;
-    padding: 25px 25px 5px 25px;
+    padding: 0 25px 5px 25px;
     animation-name: example;
     animation-duration: 1s;
 }

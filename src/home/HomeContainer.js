@@ -1,15 +1,18 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import HomeStyle from "./HomeStyle.module.css";
 import all from "./all.jpg";
 import hight from "./hight.jpg";
 import TitleHeader from "../layout/header/TitleHeader";
 import NavBar from "../layout/header/NavBar";
 import Footer from "../layout/Footer";
-import Menu from "../layout/header/Menu";
+import ReactGa from "react-ga";
 
 const HomeContainer = (props) => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
-
+    useEffect(()=>{
+        ReactGa.initialize('UA-174210957-1')
+        ReactGa.pageview('/')
+    },[])
   return (
     <div>
       <TitleHeader />
