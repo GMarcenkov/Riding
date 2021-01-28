@@ -5,13 +5,17 @@ import MobileApp from './mobile/mobileApp';
 import reportWebVitals from './reportWebVitals';
 import {isMobile} from 'react-device-detect';
 import DesktopApp from "./desktop/desktopApp";
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 ReactDOM.render(
   <React.StrictMode>
       {
           isMobile? <MobileApp />:<DesktopApp/>
       }
-
+    <MessengerCustomerChat
+        pageId="105901171196264"
+        appId="2757958997788792"
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );
