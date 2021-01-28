@@ -20,10 +20,6 @@ const PlaceContainer = () => {
       <NavBar menuIsOpen={menuIsOpen} setMenuIsOpen={setMenuIsOpen} />
       <div className={HomeStyle.wrapper}>
         В процес на разработка
-        <MessengerCustomerChat
-          pageId="100137018774976"
-          appId="704893963558133"
-        />
       </div>
       <Footer />
     </div>

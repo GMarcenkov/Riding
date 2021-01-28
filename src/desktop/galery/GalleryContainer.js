@@ -103,10 +103,6 @@ const GalleryContainer = (props) => {
 
       <div className={GalleryStyle.wrapper}>
         <ImageGallery items={images} />
-        <MessengerCustomerChat
-            pageId="100137018774976"
-            appId="704893963558133"
-        />
       </div>
       <Footer />
     </div>

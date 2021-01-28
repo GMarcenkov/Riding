@@ -18,10 +18,6 @@ const ProfileContainer = (props) => {
       <TitleHeader />
       <NavBar menuIsOpen={menuIsOpen} setMenuIsOpen={setMenuIsOpen} />
       <div className={ProfileStyle.wrapper}>В процес на разработка
-          <MessengerCustomerChat
-              pageId="100137018774976"
-              appId="2757958997788792"
-          />
       </div>
       <Footer />
     </div>

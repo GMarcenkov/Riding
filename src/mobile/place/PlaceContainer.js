@@ -21,10 +21,6 @@ ReactGa.pageview('/place')
       <div className={HomeStyle.wrapper}>
             В процес на разработка
       </div>
-        <MessengerCustomerChat
-            pageId="100137018774976"
-            appId="2757958997788792"
-        />
       <Footer />
     </div>
   );

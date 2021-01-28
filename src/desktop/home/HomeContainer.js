@@ -39,10 +39,6 @@ const HomeContainer = (props) => {
           </div>
           <img className={HomeStyle.image} src={hight} />
         </div>
-        <MessengerCustomerChat
-            pageId="100137018774976"
-            appId="704893963558133"
-        />
       </div>
       <Footer />
     </div>

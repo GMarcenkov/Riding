@@ -3,6 +3,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPhoneAlt,faBars} from "@fortawesome/free-solid-svg-icons";
 import HeaderStyle from './HederStyle.module.css'
 import Menu from "./Menu";
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 const NavBar = ({setMenuIsOpen,menuIsOpen}) => {
     return (
@@ -13,6 +14,10 @@ const NavBar = ({setMenuIsOpen,menuIsOpen}) => {
                     <FontAwesomeIcon icon={faPhoneAlt} /> +359897258673
                 </a>
             </div>
+            <MessengerCustomerChat
+                pageId="100137018774976"
+                appId="704893963558133"
+            />
             <Menu menuIsOpen={menuIsOpen}/>
         </nav>
 

@@ -36,10 +36,6 @@ const HomeContainer = (props) => {
           Прекарайте един прекрасен ден сред природата.
         </div>
       </div>
-        <MessengerCustomerChat
-            pageId="100137018774976"
-            appId="2757958997788792"
-        />
       <Footer />
     </div>
   );
