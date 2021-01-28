@@ -1,11 +1,11 @@
-import './App.css';
+import '../App.css';
 import HomeContainer from "./home/HomeContainer";
 import Routes from "./routes";
 
-function App() {
+function DesktopApp() {
   return (
     <Routes/>
   );
 }
 
-export default App;
+export default DesktopApp;

@@ -1,0 +1,43 @@
+.wrapper{
+    min-height: calc(106vh - 320px);
+    width: 60%;
+    margin: auto;
+}
+.header{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+.title{
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+
+.phone{
+    text-decoration: none;
+    color: white;
+}
+.image{
+    width:500px;
+    padding: 30px;
+    border-radius: 60px;
+
+}
+.body{
+    font-family: inherit;
+    text-indent: 50px;
+    text-align: justify;
+    font-size: 20px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+.text_container{
+    display: flex;
+    margin-top: 70px;
+}
+

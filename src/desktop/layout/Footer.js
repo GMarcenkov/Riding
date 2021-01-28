@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import HeaderStyle from "../layout/header/HederStyle.module.css";
+import HeaderStyle from "./header/HederStyle.module.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebook} from "@fortawesome/free-brands-svg-icons/faFacebook";
 import {faPhoneAlt} from "@fortawesome/free-solid-svg-icons";

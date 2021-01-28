@@ -13,7 +13,7 @@
     padding-bottom: 10px;
     font-weight: bolder;
     border: white solid 2px;
-    width: 70%;
+    width: 40%;
     margin: auto;
     border-radius: 30px;
     text-align: center;
@@ -27,7 +27,7 @@
     z-index: 100;
 }
 .navBar_container{
-    padding: 10px 0 10px 0;
+    padding: 20px 0 20px 0;
     color: white;
     display: flex;
     justify-content: space-evenly;
@@ -62,21 +62,38 @@
 .category_title{
     display: block;
     color: white;
-    padding: 0 0  10px 0;
     font-size: 25px;
     font-weight: bold;
     text-decoration: none;
+}
+.category_title_select{
+    display: block;
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.category_title:hover{
+    color: red;
 }
 .phone{
     text-decoration: none;
     color: white;
 }
+.phone:hover{
+    text-decoration: none;
+    color: red;
+}
 .footer{
+    margin-top: 150px;
     background: black;
-    margin: auto;
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
 }
 .facebook_container{
     font-size: 25px;
@@ -96,10 +113,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-    top:0;
-    left: 0;
     background: black;
     color: white;
-    width: 100%;
 }
 

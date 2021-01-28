@@ -12,6 +12,7 @@ const HomeContainer = (props) => {
     useEffect(()=>{
         ReactGa.initialize('UA-174210957-1')
         ReactGa.pageview('/')
+        window.scrollTo(0, 0)
     },[])
   return (
     <div>

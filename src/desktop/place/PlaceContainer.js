@@ -11,6 +11,7 @@ const PlaceContainer = () => {
   useEffect(()=>{
       ReactGa.initialize('UA-174210957-1')
 ReactGa.pageview('/place')
+      window.scrollTo(0, 0)
   },[])
   return (
     <div>

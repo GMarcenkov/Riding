@@ -92,6 +92,7 @@ const GalleryContainer = (props) => {
   useEffect(()=>{
     ReactGa.initialize('UA-174210957-1')
     ReactGa.pageview('/gallery')
+    window.scrollTo(0, 0)
   },[])
   const [menuIsOpen, setMenuIsOpen] = useState(false);
   return (
