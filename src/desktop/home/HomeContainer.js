@@ -6,7 +6,7 @@ import TitleHeader from "../layout/header/TitleHeader";
 import NavBar from "../layout/header/NavBar";
 import Footer from "../layout/Footer";
 import ReactGa from "react-ga";
-import MessengerCustomerChat from 'react-messenger-customer-chat';
+import AdSense from 'react-adsense';
 
 const HomeContainer = (props) => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
@@ -39,6 +39,12 @@ const HomeContainer = (props) => {
           </div>
           <img className={HomeStyle.image} src={hight} />
         </div>
+        <AdSense.Google
+            client='ca-pub-5841965259524315'
+            slot='7806394673'
+            style={{ width: 500, height: 300, float: 'left' }}
+            format=''
+        />
       </div>
       <Footer />
     </div>

@@ -13,6 +13,7 @@
     "@testing-library/user-event": "^12.6.2",
     "prettier": "^2.2.1",
     "react": "^17.0.1",
+    "react-adsense": "^0.1.0",
     "react-device-detect": "^1.15.0",
     "react-dom": "^17.0.1",
     "react-ga": "^3.3.0",
