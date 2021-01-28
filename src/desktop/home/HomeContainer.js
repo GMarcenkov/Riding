@@ -41,7 +41,6 @@ const HomeContainer = (props) => {
         </div>
         <AdSense.Google
             client='ca-pub-5841965259524315'
-            slot='7806394673'
             style={{ width: 500, height: 300, float: 'left' }}
             format=''
         />
