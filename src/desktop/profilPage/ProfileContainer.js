@@ -4,6 +4,7 @@ import NavBar from "../layout/header/NavBar";
 import Footer from "../layout/Footer";
 import ProfileStyle from './ProfilStyle.module.css'
 import ReactGa from "react-ga";
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 const ProfileContainer = props => {
     const [menuIsOpen, setMenuIsOpen] = useState(false);
@@ -19,6 +20,7 @@ const ProfileContainer = props => {
             <div className={ProfileStyle.wrapper}>
   В процес на разработка
             </div>
+
             <Footer />
         </div>
     );

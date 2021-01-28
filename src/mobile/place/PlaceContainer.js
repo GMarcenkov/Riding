@@ -4,6 +4,7 @@ import NavBar from "../layout/header/NavBar";
 import HomeStyle from "../home/HomeStyle.module.css";
 import Footer from "../layout/Footer";
 import ReactGa from 'react-ga'
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 const PlaceContainer = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
@@ -20,6 +21,10 @@ ReactGa.pageview('/place')
       <div className={HomeStyle.wrapper}>
             В процес на разработка
       </div>
+        <MessengerCustomerChat
+            pageId="100137018774976"
+            appId="2757958997788792"
+        />
       <Footer />
     </div>
   );

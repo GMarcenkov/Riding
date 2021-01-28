@@ -6,6 +6,7 @@ import NavBar from "../layout/header/NavBar";
 import Footer from "../layout/Footer";
 import GalleryStyle from "./GalleryStyle.module.css";
 import ReactGa from "react-ga";
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 
 const GalleryContainer = (props) => {
@@ -103,6 +104,10 @@ const GalleryContainer = (props) => {
       <div className={GalleryStyle.wrapper}>
         <ImageGallery items={images} />
       </div>
+      <MessengerCustomerChat
+          pageId="100137018774976"
+          appId="2757958997788792"
+      />
       <Footer />
     </div>
   );

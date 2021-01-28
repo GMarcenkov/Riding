@@ -4,6 +4,7 @@ import NavBar from "../layout/header/NavBar";
 import PriceStyle from "./PricesStyle.module.css";
 import Footer from "../layout/Footer";
 import ReactGa from "react-ga";
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 const PricesContainer = (props) => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
@@ -34,6 +35,10 @@ const PricesContainer = (props) => {
           които желаят да преживеят чувството на своите деди които са се возили
           на масивен "самар", можем да задоволим и това тяхно удоволствие!
         </div>
+        <MessengerCustomerChat
+            pageId="100137018774976"
+            appId="2757958997788792"
+        />
       </div>
       <Footer />
     </div>

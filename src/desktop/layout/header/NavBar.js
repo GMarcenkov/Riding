@@ -4,6 +4,7 @@ import { faPhoneAlt, faBars } from "@fortawesome/free-solid-svg-icons";
 import HeaderStyle from "./HederStyle.module.css";
 import Menu from "./Menu";
 import { Link } from "react-router-dom";
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 const NavBar = ({ setMenuIsOpen, menuIsOpen }) => {
   return (
@@ -63,6 +64,10 @@ const NavBar = ({ setMenuIsOpen, menuIsOpen }) => {
         >
           Ценоразпис
         </Link>
+        <MessengerCustomerChat
+            pageId="100137018774976"
+            appId="2757958997788792"
+        />
       </div>
       {/*<Menu menuIsOpen={menuIsOpen}/>*/}
     </nav>

@@ -6,6 +6,7 @@ import TitleHeader from "../layout/header/TitleHeader";
 import NavBar from "../layout/header/NavBar";
 import Footer from "../layout/Footer";
 import ReactGa from "react-ga";
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 const HomeContainer = (props) => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
@@ -35,6 +36,10 @@ const HomeContainer = (props) => {
           Прекарайте един прекрасен ден сред природата.
         </div>
       </div>
+        <MessengerCustomerChat
+            pageId="100137018774976"
+            appId="2757958997788792"
+        />
       <Footer />
     </div>
   );
