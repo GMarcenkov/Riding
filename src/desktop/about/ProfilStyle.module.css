@@ -1,0 +1,32 @@
+.wrapper {
+  min-height: calc(106vh - 320px);
+  width: 60%;
+  margin: auto;
+}
+.about_container {
+  display: flex;
+  margin-top: 70px;
+}
+.text_container {
+  padding: 40px 20px 20px 20px;
+}
+.text_title {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 40px;
+    padding-top: 30px;
+}
+.text {
+  font-family: inherit;
+  text-indent: 50px;
+  text-align: justify;
+  font-size: 20px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.image_text {
+  width: 500px;
+  padding: 30px;
+  border-radius: 60px;
+}

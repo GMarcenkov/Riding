@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import HomeContainer from "./home/HomeContainer";
 import GalleryContainer from "./galery/GalleryContainer";
-import ProfileContainer from "./profilPage/ProfileContainer";
+import AboutContainer from "./about/AboutContainer";
 import PricesContainer from "./prices/PricesContainer";
 import PlaceContainer from "./place/PlaceContainer";
 
@@ -13,7 +13,7 @@ const Routes = props => {
             <Switch>
                 <Route path="/" exact component={HomeContainer}/>
                 <Route path="/gallery" exact component={GalleryContainer}/>
-                <Route path="/about" exact component={ProfileContainer}/>
+                <Route path="/about" exact component={AboutContainer}/>
                 <Route path="/price" exact component={PricesContainer}/>
                 <Route path="/place" exact component={PlaceContainer}/>
             </Switch>
