@@ -2,7 +2,6 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneAlt, faBars } from "@fortawesome/free-solid-svg-icons";
 import HeaderStyle from "./HederStyle.module.css";
-import Menu from "./Menu";
 import { Link } from "react-router-dom";
 import MessengerCustomerChat from "react-messenger-customer-chat";
 
@@ -35,14 +34,14 @@ const NavBar = ({ setMenuIsOpen, menuIsOpen }) => {
           За Нас
         </Link>
         <Link
-          to="/place"
+          to="/shop"
           className={
-            window.location.pathname === "/place"
+            window.location.pathname === "/shop"
               ? HeaderStyle.category_title_select
               : HeaderStyle.category_title
           }
         >
-          Къде сме ?
+          Артикули
         </Link>
         <Link
           to="/gallery"
@@ -69,7 +68,6 @@ const NavBar = ({ setMenuIsOpen, menuIsOpen }) => {
             appId="704893963558133"
         />
       </div>
-      {/*<Menu menuIsOpen={menuIsOpen}/>*/}
     </nav>
   );
 };

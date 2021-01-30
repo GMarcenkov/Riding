@@ -41,7 +41,7 @@ const ProfileContainer = (props) => {
               макар и неопитен  е изградил свой собствен начин да
               предразполага хората, които за първи път се качват на кон.
           </div>
-          <div className={ProfileStyle.body_title}>
+          <div className={ProfileStyle.text_youtube}>
               За повече подробности около конния занаят на Тома Мърценков вижте
               още в интервюто му за "Пътуващото читалище":
           </div>

@@ -27,14 +27,14 @@ const Menu = ({ menuIsOpen }) => {
             За Нас
           </Link>
           <Link
-            to="/place"
+            to="/shop"
             className={
-              window.location.pathname === "/place"
+              window.location.pathname === "/shop"
                 ? HeaderStyle.category_title_select
                 : HeaderStyle.category_title
             }
           >
-            Къде сме ?
+            Артикули
           </Link>
           <Link
             to="/gallery"

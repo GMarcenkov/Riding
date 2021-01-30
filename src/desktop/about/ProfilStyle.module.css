@@ -1,6 +1,6 @@
 .wrapper {
   min-height: calc(106vh - 320px);
-  width: 60%;
+  width: 1000px;
   margin: auto;
 }
 .about_container {
@@ -29,4 +29,16 @@
   width: 500px;
   padding: 30px;
   border-radius: 60px;
+}
+.text_youtube{
+  background: red;
+  border: black solid 5px;
+  border-radius:60px;
+  padding:30px;
+  color: white;
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
 }

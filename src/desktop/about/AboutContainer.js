@@ -48,7 +48,7 @@ const AboutContainer = (props) => {
         </div>
         <div className={ProfileStyle.about_container}>
           <div className={ProfileStyle.text_container}>
-            <div className={ProfileStyle.text_title}>
+            <div className={ProfileStyle.text_youtube}>
               За повече подробности около конния занаят на Тома Мърценков вижте
               още в интервюто му за "Пътуващото читалище"
             </div>

@@ -1,6 +1,6 @@
 .wrapper{
     min-height: calc(106vh - 320px);
-    width: 60%;
+    width: 1000px;
     margin: auto;
 }
 .header{

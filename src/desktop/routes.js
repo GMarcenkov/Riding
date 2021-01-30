@@ -5,7 +5,7 @@ import HomeContainer from "./home/HomeContainer";
 import GalleryContainer from "./galery/GalleryContainer";
 import AboutContainer from "./about/AboutContainer";
 import PricesContainer from "./prices/PricesContainer";
-import PlaceContainer from "./place/PlaceContainer";
+import ShopContainer from "./shop/ShopContainer";
 
 const Routes = props => {
     return (
@@ -15,7 +15,7 @@ const Routes = props => {
                 <Route path="/gallery" exact component={GalleryContainer}/>
                 <Route path="/about" exact component={AboutContainer}/>
                 <Route path="/price" exact component={PricesContainer}/>
-                <Route path="/place" exact component={PlaceContainer}/>
+                <Route path="/shop" exact component={ShopContainer}/>
             </Switch>
 
         </Router>
