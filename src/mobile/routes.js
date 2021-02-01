@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import HomeContainer from "./home/HomeContainer";
 import GalleryContainer from "./galery/GalleryContainer";
-import ProfileContainer from "./profilPage/ProfileContainer";
+import ProfileContainer from "./about/ProfileContainer";
 import PricesContainer from "./prices/PricesContainer";
 import ShopContainer from "./shop/ShopContainer";
 

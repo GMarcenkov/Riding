@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import TitleHeader from "../layout/header/TitleHeader";
@@ -7,7 +7,6 @@ import Footer from "../layout/Footer";
 import GalleryStyle from "./GalleryStyle.module.css";
 import ReactGa from "react-ga";
 import MessengerCustomerChat from "react-messenger-customer-chat";
-
 
 const GalleryContainer = (props) => {
   const [images, setImages] = useState([
@@ -47,18 +46,6 @@ const GalleryContainer = (props) => {
       thumbnail:
         "https://scontent-sof1-1.xx.fbcdn.net/v/t1.0-9/68339_427102270684473_1050961297_n.jpg?_nc_cat=107&ccb=2&_nc_sid=cdbe9c&_nc_ohc=tysZ3rHBmuMAX_Dx7RT&_nc_ht=scontent-sof1-1.xx&oh=297154fc7cfeb7fae7cc428cbd161a78&oe=6032EF8B",
     },
-    // {
-    //   original:
-    //     "https://scontent-sof1-1.xx.fbcdn.net/v/t1.0-9/404929_239070009501282_1202729581_n.jpg?_nc_cat=107&ccb=2&_nc_sid=f9d7a1&_nc_ohc=n9Zfvnsw6U8AX-g7Tab&_nc_ht=scontent-sof1-1.xx&oh=54a6db0ded17dc12b0dd9dca75edee47&oe=60333AF8",
-    //   thumbnail:
-    //     "https://scontent-sof1-1.xx.fbcdn.net/v/t1.0-9/404929_239070009501282_1202729581_n.jpg?_nc_cat=107&ccb=2&_nc_sid=f9d7a1&_nc_ohc=n9Zfvnsw6U8AX-g7Tab&_nc_ht=scontent-sof1-1.xx&oh=54a6db0ded17dc12b0dd9dca75edee47&oe=60333AF8",
-    // },
-    // {
-    //   original:
-    //     "https://scontent-sof1-1.xx.fbcdn.net/v/t1.0-9/73454_453027914069_8287482_n.jpg?_nc_cat=103&ccb=2&_nc_sid=cdbe9c&_nc_ohc=VVRmpA0m51AAX_Nn4xh&_nc_ht=scontent-sof1-1.xx&oh=a85bfcd5f1f4618d16c30f0e9e671811&oe=60354C19",
-    //   thumbnail:
-    //     "https://scontent-sof1-1.xx.fbcdn.net/v/t1.0-9/73454_453027914069_8287482_n.jpg?_nc_cat=103&ccb=2&_nc_sid=cdbe9c&_nc_ohc=VVRmpA0m51AAX_Nn4xh&_nc_ht=scontent-sof1-1.xx&oh=a85bfcd5f1f4618d16c30f0e9e671811&oe=60354C19",
-    // },
     {
       original:
         "https://scontent-sof1-1.xx.fbcdn.net/v/t1.0-9/44638_1332279079297_7240118_n.jpg?_nc_cat=110&ccb=2&_nc_sid=cdbe9c&_nc_ohc=CAf3LAnfd2gAX-Bjyca&_nc_ht=scontent-sof1-1.xx&oh=a4fab527b3c6194e192b9063718b4565&oe=603299DC",
@@ -77,32 +64,39 @@ const GalleryContainer = (props) => {
       thumbnail:
         "https://scontent-sof1-1.xx.fbcdn.net/v/t1.0-9/124095024_3619642751430393_2290173263903105821_n.jpg?_nc_cat=110&ccb=2&_nc_sid=8bfeb9&_nc_ohc=eKRxyzowS78AX8ONkpM&_nc_ht=scontent-sof1-1.xx&oh=16d7c8513cbb74334f9ee63db2dfde12&oe=603327F5",
     },
-    // {
-    //   original:
-    //     "https://scontent-sof1-1.xx.fbcdn.net/v/t1.0-9/10517508_727851177276246_1708833829266961981_n.jpg?_nc_cat=101&ccb=2&_nc_sid=730e14&_nc_ohc=XanbOxR6sXsAX-I9BX2&_nc_ht=scontent-sof1-1.xx&oh=40967a7e81c184e53281d3751d407dfa&oe=6032E58A",
-    //   thumbnail:
-    //     "https://scontent-sof1-1.xx.fbcdn.net/v/t1.0-9/10517508_727851177276246_1708833829266961981_n.jpg?_nc_cat=101&ccb=2&_nc_sid=730e14&_nc_ohc=XanbOxR6sXsAX-I9BX2&_nc_ht=scontent-sof1-1.xx&oh=40967a7e81c184e53281d3751d407dfa&oe=6032E58A",
-    // },
-    // {
-    //   original:
-    //     "https://scontent-sof1-1.xx.fbcdn.net/v/t1.0-9/394041_239059499502333_1189756566_n.jpg?_nc_cat=104&ccb=2&_nc_sid=f9d7a1&_nc_ohc=iL_nTV_TttMAX8zg7yv&_nc_ht=scontent-sof1-1.xx&oh=f614cd385a7b893fa49731dc72b7acdc&oe=6032E485",
-    //   thumbnail:
-    //     "https://scontent-sof1-1.xx.fbcdn.net/v/t1.0-9/394041_239059499502333_1189756566_n.jpg?_nc_cat=104&ccb=2&_nc_sid=f9d7a1&_nc_ohc=iL_nTV_TttMAX8zg7yv&_nc_ht=scontent-sof1-1.xx&oh=f614cd385a7b893fa49731dc72b7acdc&oe=6032E485",
-    // },
+    {
+      original:
+        "https://scontent-sof1-1.xx.fbcdn.net/v/t1.0-9/394041_239059499502333_1189756566_n.jpg?_nc_cat=104&ccb=2&_nc_sid=f9d7a1&_nc_ohc=iL_nTV_TttMAX8zg7yv&_nc_ht=scontent-sof1-1.xx&oh=f614cd385a7b893fa49731dc72b7acdc&oe=6032E485",
+      thumbnail:
+        "https://scontent-sof1-1.xx.fbcdn.net/v/t1.0-9/394041_239059499502333_1189756566_n.jpg?_nc_cat=104&ccb=2&_nc_sid=f9d7a1&_nc_ohc=iL_nTV_TttMAX8zg7yv&_nc_ht=scontent-sof1-1.xx&oh=f614cd385a7b893fa49731dc72b7acdc&oe=6032E485",
+    },
+    {
+      original:
+        "https://scontent-sof1-1.xx.fbcdn.net/v/t1.0-9/61089053_2039263069713468_7885898712411537408_o.jpg?_nc_cat=103&ccb=2&_nc_sid=8bfeb9&_nc_ohc=oKexEyZsxkAAX9vuoQN&_nc_ht=scontent-sof1-1.xx&oh=d98ee59417a1a448dbbd473c8a3f015f&oe=603F4EBC",
+      thumbnail:
+        "https://scontent-sof1-1.xx.fbcdn.net/v/t1.0-9/61089053_2039263069713468_7885898712411537408_o.jpg?_nc_cat=103&ccb=2&_nc_sid=8bfeb9&_nc_ohc=oKexEyZsxkAAX9vuoQN&_nc_ht=scontent-sof1-1.xx&oh=d98ee59417a1a448dbbd473c8a3f015f&oe=603F4EBC",
+    },
+    {
+      original:
+        "https://scontent-sof1-1.xx.fbcdn.net/v/t1.0-9/198899_211019318915286_3652998_n.jpg?_nc_cat=107&ccb=2&_nc_sid=cdbe9c&_nc_ohc=XRYfH_XCm90AX8GwVJ-&_nc_ht=scontent-sof1-1.xx&oh=80d0c59464cb82341bd21ab62b2e9d60&oe=603EBF6C",
+      thumbnail:
+        "https://scontent-sof1-1.xx.fbcdn.net/v/t1.0-9/198899_211019318915286_3652998_n.jpg?_nc_cat=107&ccb=2&_nc_sid=cdbe9c&_nc_ohc=XRYfH_XCm90AX8GwVJ-&_nc_ht=scontent-sof1-1.xx&oh=80d0c59464cb82341bd21ab62b2e9d60&oe=603EBF6C",
+    },
   ]);
-  useEffect(()=>{
-    ReactGa.initialize('UA-174210957-1')
-    ReactGa.pageview('/gallery')
-    window.scrollTo(0, 0)
-  },[])
+  useEffect(() => {
+    ReactGa.initialize("UA-174210957-1");
+    ReactGa.pageview("/gallery");
+    window.scrollTo(0, 0);
+  }, []);
   const [menuIsOpen, setMenuIsOpen] = useState(false);
   return (
     <div>
-        <TitleHeader />
-        <NavBar menuIsOpen={menuIsOpen} setMenuIsOpen={setMenuIsOpen} />
-
+      <TitleHeader />
+      <NavBar menuIsOpen={menuIsOpen} setMenuIsOpen={setMenuIsOpen} />
       <div className={GalleryStyle.wrapper}>
-        <ImageGallery items={images} />
+        <div className={GalleryStyle.gallery_container}>
+          <ImageGallery items={images} />
+        </div>
       </div>
       <Footer />
     </div>

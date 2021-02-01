@@ -1,9 +1,9 @@
 import React from "react";
 import HeaderStyle from "./HederStyle.module.css";
 import { Link } from "react-router-dom";
-const Menu = ({ menuIsOpen }) => {
+const Menu = ({ menuIsOpen,setMenuIsOpen }) => {
   return (
-    <div>
+    <div onClick={()=>console.log(menuIsOpen)}>
       {menuIsOpen ? (
         <div className={HeaderStyle.menu_container}>
           <Link

@@ -45,6 +45,9 @@
     animation-name: example;
     animation-duration: 1s;
 }
+.menu_open{
+    color: red;
+}
 .menu_container_selected{
     position: absolute;
     min-width: 30%;

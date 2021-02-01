@@ -1,43 +1,106 @@
-.wrapper{
-    min-height: calc(106vh - 320px);
-    width: 1000px;
-    margin: auto;
+.wrapper {
+  min-height: calc(106vh - 320px);
+  width: 1000px;
+  margin: auto;
 }
-.header{
-    padding-top: 30px;
-    padding-bottom: 10px;
-    text-align: center;
-    top:0;
-    left: 0;
-    width: 100%;
+.slider {
+  margin-top: 70px;
 }
-.title{
-    font-size: 30px;
-    padding-bottom: 20px;
-    font-weight: bolder;
+.title_text1 {
+  width: 720px;
+  margin-left: 500px;
+  margin-top: 100px;
+  padding: 20px;
+  color: red;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  background: black;
+  transform: rotate(15deg);
+  border-radius: 30px;
+}
+.title_text2 {
+  width: 800px;
+  margin-top: 100px;
+  margin-left: -200px;
+  padding: 20px;
+  color: red;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  background: black;
+  transform: rotate(-15deg);
+  border-radius: 30px;
+}
+.title_text3 {
+  margin-top: 100px;
+  padding: 20px;
+  color: red;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  background: black;
+  border-radius: 30px;
+  text-decoration: underline;
+}
+.header {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.title {
+  font-size: 30px;
+  padding-bottom: 20px;
+  font-weight: bolder;
 }
 
-.phone{
-    text-decoration: none;
-    color: white;
+.phone {
+  text-decoration: none;
+  color: white;
 }
-.image{
-    width:500px;
-    padding: 30px;
-    border-radius: 60px;
+.image {
+  width: 500px;
+  padding: 30px;
+  border-radius: 60px;
+}
+.google_title {
+  color: #337ab7;
+  margin-top: 60px;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+}
+.body {
+  font-family: inherit;
+  text-indent: 50px;
+  text-align: justify;
+  font-size: 20px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+.text_container {
+  display: flex;
+  margin-top: 70px;
+}
+.google_maps_wrapper {
+  margin-top: 30px;
+  border: #337ab7 solid 4px;
+  border-radius: 30px;
+  background: #337ab7;
+  color: white;
+}
 
+.google_maps_container {
+  width: 800px;
+  justify-content: center;
+  text-align: center;
 }
-.body{
-    font-family: inherit;
-    text-indent: 50px;
-    text-align: justify;
-    font-size: 20px;
-    padding: 30px;
-    display: flex;
-    align-items: center;
+.google_maps_town{
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
 }
-.text_container{
-    display: flex;
-    margin-top: 70px;
-}
-

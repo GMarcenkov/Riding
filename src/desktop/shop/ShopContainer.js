@@ -30,7 +30,7 @@ const ShopContainer = () => {
             <div className={ShopStyle.product_old_price}>15.00 лв.</div>
           </div>
           <div className={ShopStyle.product_price_container}>
-            <div className={ShopStyle.product_price}>10.00 лв.</div>
+            <div className={ShopStyle.product_price}>9.99 лв.</div>
           </div>
         </div>
 

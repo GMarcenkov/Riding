@@ -1,3 +1,9 @@
 .wrapper{
     min-height: calc(106vh - 320px);
+    width: 1000px;
+    margin: auto;
+}
+.gallery_container{
+    margin-top: 70px;
+    width: 100%;
 }

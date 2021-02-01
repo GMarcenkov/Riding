@@ -2,7 +2,10 @@
     min-height: calc(106vh - 320px);
     width: 90%;
     margin: auto;
+}
+.slider {
     margin-top: 30px;
+    margin-bottom: 60px;
 }
 .header{
     padding-top: 30px;
@@ -33,5 +36,38 @@
     text-align: justify;
     font-size: 17px;
 }
+.google_maps_wrapper {
+    margin-top: 30px;
+    border: #337ab7 solid 4px;
+    border-radius: 30px;
+    background: #337ab7;
+    color: white;
+    margin-bottom: 30px;
+}
 
-
+.google_maps_container {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.google_maps_town{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+.google_title {
+    color: #337ab7;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+.google_map_text{
+    padding: 20px 10px 10px 10px;
+    font-family: inherit;
+    text-indent: 50px;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 600;
+}
