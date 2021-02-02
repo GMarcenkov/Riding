@@ -10,7 +10,7 @@ const NavBar = ({ setMenuIsOpen, menuIsOpen }) => {
     <nav className={HeaderStyle.navBar_wrapper}>
       <div className={HeaderStyle.navBar_container}>
         {/*<FontAwesomeIcon icon={faBars} onClick={()=>setMenuIsOpen(!menuIsOpen)}/>*/}
-        <a href="tel:+359876825221" className={HeaderStyle.phone}>
+        <a href="tel:+359876825221" className={HeaderStyle.category_title}>
           <FontAwesomeIcon icon={faPhoneAlt} /> +359897258673
         </a>
         <Link

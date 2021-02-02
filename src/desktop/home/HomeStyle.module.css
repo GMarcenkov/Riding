@@ -1,6 +1,6 @@
 .wrapper {
   min-height: calc(106vh - 320px);
-  width: 1250px;
+  width: 900px;
   margin: auto;
 }
 .slider {
@@ -8,7 +8,7 @@
 }
 
 .image {
-  width: 600px;
+  width: 400px;
   padding: 30px;
   border-radius: 60px;
 }
@@ -23,7 +23,7 @@
   font-family: inherit;
   text-indent: 50px;
   text-align: justify;
-  font-size: 27px;
+  font-size: 20px;
   padding: 30px;
   display: flex;
   align-items: center;

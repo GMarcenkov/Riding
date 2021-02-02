@@ -1,6 +1,6 @@
 .wrapper {
   min-height: calc(106vh - 320px);
-  width: 1250px;
+  width: 900px;
   margin: auto;
 }
 .about_container {
@@ -11,7 +11,7 @@
   padding: 40px 20px 20px 20px;
 }
 .text_title {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   padding-bottom: 40px;
     padding-top: 30px;
@@ -20,13 +20,13 @@
   font-family: inherit;
   text-indent: 50px;
   text-align: justify;
-  font-size: 25px;
+  font-size: 20px;
   padding-top: 20px;
   display: flex;
   align-items: center;
 }
 .image_text {
-  width: 600px;
+  width: 400px;
   padding: 30px;
   border-radius: 60px;
 }
@@ -34,11 +34,11 @@
   background: red;
   border: black solid 5px;
   border-radius:60px;
-  padding:30px;
+  padding:20px;
   color: white;
   font-weight: bold;
   font-family: inherit;
-  font-size: 25px;
+  font-size: 20px;
   display: flex;
   align-items: center;
 }

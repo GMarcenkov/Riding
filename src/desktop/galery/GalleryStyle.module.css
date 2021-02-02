@@ -1,6 +1,6 @@
 .wrapper{
     min-height: calc(106vh - 320px);
-    width: 1000px;
+    width: 900px;
     margin: auto;
 }
 .gallery_container{

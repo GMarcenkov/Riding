@@ -60,7 +60,7 @@ const HomeContainer = (props) => {
             {images.map((img) => (
               <div>
                 <img
-                  style={{ width: "1250px", height: "770px" }}
+                  style={{ width: "900px", height: "550px" }}
                   src={img.url}
                 />
               </div>

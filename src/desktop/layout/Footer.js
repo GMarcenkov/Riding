@@ -30,7 +30,7 @@ const Footer = props => {
                   ЕЗДА С ТОМА
                 </a>
             </div>
-            <div className={HeaderStyle.phone_container}>
+            <div className={HeaderStyle.facebook_container}>
                 <a href="tel:+359876825221" className={HeaderStyle.phone}>
                     <FontAwesomeIcon icon={faPhoneAlt} /> +359897258673
                 </a>
