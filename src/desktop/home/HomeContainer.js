@@ -60,7 +60,7 @@ const HomeContainer = (props) => {
             {images.map((img) => (
               <div>
                 <img
-                  style={{ width: "1000px", height: "600px" }}
+                  style={{ width: "1250px", height: "770px" }}
                   src={img.url}
                 />
               </div>
@@ -86,7 +86,7 @@ const HomeContainer = (props) => {
           </div>
 
           <div className={HomeStyle.google_maps_container}>
-            <h3>Вижте в googleMaps:</h3>
+            <h2>Вижте в googleMaps:</h2>
             <a
               href="https://www.google.com/maps/dir/42.1916292,23.9876993//@42.1915985,23.9862072,16.75z/data=!4m2!4m1!3e0"
               target="_blank"
