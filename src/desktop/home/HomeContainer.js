@@ -58,7 +58,7 @@ const HomeContainer = (props) => {
         <div className={HomeStyle.slider}>
           <AutoplaySlider play={true} interval={3000} infinite={true}>
             {images.map((img) => (
-              <div>
+              <div >
                 <img
                   style={{ width: "900px", height: "550px" }}
                   src={img.url}
