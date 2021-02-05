@@ -29,7 +29,7 @@ const HomeContainer = (props) => {
   }, []);
   const handleGetHeight = (e) => {
     const window = e.currentTarget;
-    if (window.scrollY > window.innerHeight + 600) {
+    if (window.scrollY > window.innerHeight + 500) {
       setMenuIsOpen(true);
     }
   };
