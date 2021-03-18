@@ -4,10 +4,8 @@ import NavBar from "../layout/header/NavBar";
 import Footer from "../layout/Footer";
 import ProfileStyle from "./ProfilStyle.module.css";
 import ReactGa from "react-ga";
-import MessengerCustomerChat from "react-messenger-customer-chat";
-import HomeStyle from "../home/HomeStyle.module.css";
-import all from "../home/all.jpg";
-import hight from "../home/hight.jpg";
+
+import about from "../../images/about.jpg";
 import YouTube from "react-youtube";
 
 const ProfileContainer = (props) => {
@@ -22,10 +20,7 @@ const ProfileContainer = (props) => {
       <TitleHeader />
       <NavBar menuIsOpen={menuIsOpen} setMenuIsOpen={setMenuIsOpen} />
       <div className={ProfileStyle.wrapper}>
-        <img
-          className={ProfileStyle.image}
-          src="https://scontent-sof1-1.xx.fbcdn.net/v/t1.0-9/10517508_727851177276246_1708833829266961981_n.jpg?_nc_cat=101&ccb=2&_nc_sid=730e14&_nc_ohc=XanbOxR6sXsAX-I9BX2&_nc_ht=scontent-sof1-1.xx&oh=40967a7e81c184e53281d3751d407dfa&oe=6032E58A"
-        />
+        <img className={ProfileStyle.image} src={about} />
         <div className={ProfileStyle.body_title}>
           За Тома можем да кажем, че е човек сбъднал една древна максима и мечта
           на много хора, а именно да отдадеш живота си на това което обичаш!

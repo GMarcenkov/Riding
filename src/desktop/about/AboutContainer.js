@@ -5,6 +5,7 @@ import Footer from "../layout/Footer";
 import ProfileStyle from "./ProfilStyle.module.css";
 import ReactGa from "react-ga";
 import YouTube from "react-youtube";
+import about from '../../images/about.jpg'
 
 const AboutContainer = (props) => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
@@ -21,7 +22,7 @@ const AboutContainer = (props) => {
         <div className={ProfileStyle.about_container}>
           <img
             className={ProfileStyle.image_text}
-            src="https://scontent-sof1-1.xx.fbcdn.net/v/t1.0-9/10517508_727851177276246_1708833829266961981_n.jpg?_nc_cat=101&ccb=2&_nc_sid=730e14&_nc_ohc=XanbOxR6sXsAX-I9BX2&_nc_ht=scontent-sof1-1.xx&oh=40967a7e81c184e53281d3751d407dfa&oe=6032E58A"
+            src={about}
           />
           <div className={ProfileStyle.text_container}>
             <div className={ProfileStyle.text_title}>
